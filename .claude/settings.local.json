@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p assets/images assets/icons css)",
+      "WebFetch(domain:designs.magicpath.ai)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

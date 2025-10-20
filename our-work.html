@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Fab Home - Our Portfolio">
+  <title>A Fab Home - Our Work</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="./index.html" class="nav-logo">
+        <img src="./assets/logo/AFabHome_Logo_Colour.png" alt="A Fab Home">
+      </a>
+      <button class="nav-toggle" id="navToggle">&#9776;</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./our-work.html" class="active">Our Work</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./contact.html" class="btn btn-primary">Book a Consultation</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=1080&fit=crop'); min-height: 400px;">
+    <div class="hero-content">
+      <h1>Our Portfolio</h1>
+      <p>Explore our portfolio of exceptional projects that showcase our commitment to quality craftsmanship, innovative design, and attention to detail. Each project represents our dedication to exceeding client expectations and creating spaces that inspire.</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons Section -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+        <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="kitchen residential">
+          <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop"
+            alt="Modern Kitchen Renovation">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Modern Kitchen Renovation</h3>
+            <p>Contemporary design with custom cabinetry</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="bathroom residential">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+            alt="Luxury Master Bathroom">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Luxury Master Bathroom</h3>
+            <p>Spa-inspired retreat with premium finishes</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="commercial">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop"
+            alt="Office Space Buildout">
+          <div class="project-overlay">
+            <span class="card-badge">Commercial</span>
+            <h3>Office Space Buildout</h3>
+            <p>Modern workspace with collaborative areas</p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-category="residential">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop"
+            alt="Custom Home Build">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Custom Home Build</h3>
+            <p>Ground-up construction with elegant design</p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-category="kitchen residential">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop"
+            alt="Traditional Kitchen Remodel">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Traditional Kitchen Remodel</h3>
+            <p>Classic styling with modern functionality</p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-category="bathroom residential">
+          <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&h=600&fit=crop"
+            alt="Guest Bathroom Renovation">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Guest Bathroom Renovation</h3>
+            <p>Compact space with maximum impact</p>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card" data-category="commercial">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
+            alt="Retail Store Renovation">
+          <div class="project-overlay">
+            <span class="card-badge">Commercial</span>
+            <h3>Retail Store Renovation</h3>
+            <p>Eye-catching design to attract customers</p>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card" data-category="residential">
+          <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop"
+            alt="Living Room Expansion">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Living Room Expansion</h3>
+            <p>Open concept living with natural light</p>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="project-card" data-category="kitchen residential">
+          <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop"
+            alt="Farmhouse Kitchen">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Farmhouse Kitchen</h3>
+            <p>Rustic charm with modern amenities</p>
+          </div>
+        </div>
+
+        <!-- Project 10 -->
+        <div class="project-card" data-category="commercial">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop"
+            alt="Corporate Office Design">
+          <div class="project-overlay">
+            <span class="card-badge">Commercial</span>
+            <h3>Corporate Office Design</h3>
+            <p>Professional environment with style</p>
+          </div>
+        </div>
+
+        <!-- Project 11 -->
+        <div class="project-card" data-category="bathroom residential">
+          <img src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?w=800&h=600&fit=crop"
+            alt="Modern Powder Room">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Modern Powder Room</h3>
+            <p>Bold design in a small space</p>
+          </div>
+        </div>
+
+        <!-- Project 12 -->
+        <div class="project-card" data-category="residential">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop"
+            alt="Home Addition Project">
+          <div class="project-overlay">
+            <span class="card-badge">Residential</span>
+            <h3>Home Addition Project</h3>
+            <p>Seamless integration with existing structure</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal/Lightbox -->
+  <div class="modal" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <img id="modalImage" src="" alt="">
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Start Your Project?</h2>
+      <p>Let's transform your space into something extraordinary</p>
+      <a href="./contact.html" class="btn btn-white">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="./assets/logo/AFabHome_Logo_Colour.png" alt="A Fab Home">
+          </div>
+          <p>Building quality homes and commercial spaces with excellence and integrity.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./our-work.html">Our Work</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="./our-work.html">Design</a></li>
+            <li><a href="./our-work.html">Construction</a></li>
+            <li><a href="./our-work.html">Renovation</a></li>
+            <li><a href="./our-work.html">Consultation</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul>
+            <li>Email: info@afabhome.com</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>123 Builder Lane<br>Construction City, ST 12345</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 A Fab Home. All rights reserved. | Built by <a href="https://www.sighencea.com" target="_blank" rel="noopener noreferrer">SIGHENCEA.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile Navigation Toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    const navLinks = navMenu.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // Project Filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Update active button
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        // Get filter value
+        const filter = button.getAttribute('data-filter');
+
+        // Filter projects
+        projectCards.forEach(card => {
+          if (filter === 'all') {
+            card.style.display = 'block';
+          } else {
+            const categories = card.getAttribute('data-category');
+            if (categories.includes(filter)) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+
+    // Modal/Lightbox Functionality
+    const modal = document.getElementById('projectModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalClose = document.getElementById('modalClose');
+
+    projectCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    // Close modal
+    modalClose.addEventListener('click', () => {
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    });
+
+    // Close modal when clicking outside
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('active')) {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  </script>
+</body>
+</html>
