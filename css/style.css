@@ -403,6 +403,16 @@ button {
   transform: translateY(0);
 }
 
+.project-overlay h3 {
+  color: var(--bg-white);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-overlay p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 /* Filter Buttons */
 .filter-buttons {
   display: flex;
@@ -582,7 +592,7 @@ textarea.form-control {
 
 /* Footer */
 .footer {
-  background-color: var(--bg-dark);
+  background-color: #0d1554;
   color: rgba(255, 255, 255, 0.8);
   padding: 3rem 0 1.5rem;
 }
