@@ -351,10 +351,11 @@ button {
 }
 
 .service-icon {
-  width: 60px;
-  height: 60px;
+  display: block;
+  font-size: 60px;
   margin: 0 auto 1rem;
   color: var(--primary-color);
+  text-align: center;
 }
 
 /* Project Gallery */
